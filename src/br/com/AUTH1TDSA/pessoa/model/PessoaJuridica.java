@@ -1,3 +1,5 @@
+package br.com.AUTH1TDSA.pessoa.model;
+
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Collections;

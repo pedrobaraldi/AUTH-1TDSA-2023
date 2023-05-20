@@ -1,3 +1,5 @@
+package br.com.AUTH1TDSA.pessoa.model;
+
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Collections;
@@ -6,20 +8,19 @@ import java.util.Vector;
 public class PessoaFisica extends Pessoa {
 
     private String cpf;
-    private Collection<Pessoa> filhos = new Vector<>();
+    private Collection<PessoaFisica> filhos = new Vector<>();
 
-    public PessoaFisica addFilho(Pessoa filho) {
+    public PessoaFisica addFilho(PessoaFisica filho) {
         this.filhos.add(filho);
         return this;
     }
 
-    public PessoaFisica removeFilho(Pessoa filho) {
+    public PessoaFisica removeFilho(PessoaFisica filho) {
         this.filhos.remove(filho);
         return this;
     }
 
-    public  Collection<Pessoa> getFilhos(){
-        return Collections.unmodifiableCollection(this.filhos);
+    public  Collection<Pessoa> getFilhos(){return Collections.unmodifiableCollection(this.filhos);
     }
 
 
@@ -34,7 +35,7 @@ public class PessoaFisica extends Pessoa {
     public PessoaFisica() {
     }
 
-    public PessoaFisica(long id, String nome, LocalDate nascimento, String cpf, Collection<Pessoa> filhos) {
+    public PessoaFisica(long id, String nome, LocalDate nascimento, String cpf, Collection<PessoaFisica> filhos) {
         super(id, nome, nascimento);
         this.cpf = cpf;
         this.filhos = filhos;

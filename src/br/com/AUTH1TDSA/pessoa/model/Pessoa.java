@@ -1,8 +1,9 @@
+package br.com.AUTH1TDSA.pessoa.model;
 import java.time.LocalDate;
 
 public class Pessoa {
 
-    private long id;
+    private Long id;
     private String nome;
     private LocalDate nascimento;
 
@@ -49,9 +50,3 @@ public class Pessoa {
                 '}';
     }
 }
-
-
-
-
-
-

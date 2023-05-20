@@ -52,7 +52,7 @@ Lembre-se de encapsular os campos, criar o toString e criar dois construtores se
 
 2º Sem receber os atributos;
 
-1. **(2 Pontos)** Criar corretamente a classe **User**.
+1. **(2 Pontos)** Criar corretamente a classe **br.com.AUTH1TDSA.sistema.User**.
 
 Lembre-se de encapsular os campos, criar o toString e criar dois construtores sendo:
 
@@ -60,7 +60,7 @@ Lembre-se de encapsular os campos, criar o toString e criar dois construtores se
 
 2º Sem receber os atributos;
 
-3º Há uma coleção de Profiles na classe **User**. Encapsule essa coleção.
+3º Há uma coleção de Profiles na classe **br.com.AUTH1TDSA.sistema.User**. Encapsule essa coleção.
 
 1. **(0,5 Ponto)** Criar corretamente a classe **Pessoa**.
 
